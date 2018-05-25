@@ -1,0 +1,40 @@
+body {
+  width: 500px;
+  /* display: flex; */
+  margin: auto;
+}
+
+.clock-widget {
+  font-family: 'Pacifico', cursive;
+
+}
+
+.clock-widget h1 {
+  font-size: 24px;
+  margin: 15px 0 5px 0;
+  text-align: right;
+}
+
+.clock-widget ul {
+  border: 2px solid black;
+  border-radius: 1px;
+  box-shadow: 2px 2px 4px 4px #ccc;
+  background-color: #b784a7;
+}
+
+.clock-widget ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 18px;
+  -webkit-text-stroke-width: .25px;
+  -webkit-text-stroke-color: #d8b1cc;
+}
+
+.clock-widget-time {
+
+}
+
+.clock-widget-date {
+
+}
