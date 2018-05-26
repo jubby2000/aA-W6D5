@@ -27,11 +27,11 @@ class Clock extends React.Component {
       <div className="clock-widget">
         <h1>i am a clock</h1>
         <ul>
-          <li className="clock-widget-time">
+          <li>
             <h2>Time: </h2>
             <p>{currTime.toLocaleTimeString()}</p>
           </li>
-          <li className="clock-widget-date">
+          <li>
             <h2>Date: </h2>
             <p>{currTime.toLocaleDateString()}</p>
           </li>

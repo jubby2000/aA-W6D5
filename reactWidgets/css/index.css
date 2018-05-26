@@ -31,10 +31,29 @@ body {
   -webkit-text-stroke-color: #d8b1cc;
 }
 
-.clock-widget-time {
-
+.tabs {
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
 }
 
-.clock-widget-date {
+.tabs-headers {
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-around;
+  margin: 10px 0;
+  font-family: 'Pacifico', cursive;
+}
 
+.tabs-article {
+  width: 90%;
+  height: 82%;
+  align-self: center;
+  border: 1px solid red;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-top: 5px;
 }
